@@ -1,0 +1,231 @@
+/* util */
+@font-face {
+    font-family: 'HSSaemaul-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (max-width:767px) {
+    .test-section h1, .test-section .name-title {
+        font-size: 32px;
+    }
+    .footer p {
+        font-size: 20px;
+    }
+    .footer .img-flag {
+        width: 200px;
+    }
+}
+@media screen and (max-width:480px ) {
+    .header h1 {
+        font-size: 24px;
+    }
+    .questions .question {
+        font-size: 18px;
+    }
+    .country-result p {
+        line-height: 20px;
+    }
+
+    .country-result .phlip {
+        width: 300px;
+        height: 200px;
+    }
+}
+/* index.html */
+
+/* animation */
+@keyframes 돌아 {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-10%);
+    }
+    20% {
+        transform: translateY(-20%);
+    }
+    30% {
+        transform: translateY(-30%);
+    }
+    40% {
+        transform: translateY(-40%);
+    }
+    50% {
+        transform: translateY(-50%);
+    }
+    60% {
+        transform: translateY(-60%);
+    }
+    70% {
+        transform: translateY(-70%);
+    }
+    80% {
+        transform: translateY(-80%);
+    }
+    90% {
+        transform: translateY(-90%);
+    } 
+    100% {
+        transform: translateY(-100%);;
+    }
+}
+
+/* main */
+
+.test-section {
+    background-color: #111;
+    font-family: 'HSSaemaul-Regular';
+    padding: 100px 0;
+    margin:10px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.name-country {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    color: white;
+}
+.name-country::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 10px 10px #111;
+}
+.name-job-list {
+    animation: 돌아 3s infinite;
+}
+.name-job-list li:nth-child(1) {
+    color: darkslateblue;
+}
+.name-job-list li:nth-child(2) {
+    color: green;
+}
+.name-job-list li:nth-child(3) {
+    color: crimson;
+}
+.name-job-list li:nth-child(4) {
+    color:goldenrod;
+}
+.name-job-list li:nth-child(5) {
+    color: #364573
+}
+.name-job-list li:nth-child(6) {
+    color: #F24C27;
+}
+.name-job-list li:nth-child(7) {
+    color: palevioletred;
+}
+.name-job-list li:nth-child(8) {
+    color: #D9AA8F
+}
+.name-job-list li:nth-child(9) {
+    color: olive;
+}
+.name-job-list li:nth-child(10) {
+    color:darkslateblue;
+}
+.name-title {
+    margin-bottom: 30px;
+}
+.btn-danger {
+    padding: 10px 20px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'HSSaemaul-Regular';
+    font-size: 24px;
+}
+.img-flag {
+    width: 300px;
+}
+
+/* test.html */
+
+body {
+    font-family: 'HSSaemaul-Regular';
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 15px 0;
+}
+.header .canada-flag {
+    margin: 10px 0 0 10px;
+    height: 25px;
+    width: 30px;
+}
+.questions {
+    text-align: center;
+    font-size: 24px;
+}
+.questions .question {
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+}
+.question .btn-group .btn {
+    font-size: 24px;  
+}
+.test-footer {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.test-footer .result {
+    color: #fff;
+    font-size: 32px;
+    padding: 20px 0;
+    margin-bottom: 5px;
+}
+.test-footer img {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/* Result */
+
+.country-result {
+    padding: 10px;
+    border: 1px solid darkslateblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+.country-result h3 {
+    font-size: 28px;
+    
+}
+.country-result .phlip {
+    width: 450px;
+    height: 350px;
+}
+.result-footer {
+    text-align: center;
+    margin-top: 30px;
+}
