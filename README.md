@@ -1,2 +1,25 @@
-# app.studyabroad
-App for support you when you choose the country where you are going to study abroad.
+# 어학연수 지역추천 앱
+
+### 1. 목표와 기능
+
+#### 1.1 목표
+* 고객의 성향에 맞는 국가를 추천 받을 수있다.
+* 상담 시작전의 아이스 브레이킹을 위한 컨텐츠로 사용 가능
+* 추후 발전하여, 유학원의 추천까지 연계
+
+#### 1.2 기능
+* 개개인의 성향 파악 가능
+* 각 성향에 맞는 국가 확인 가능
+* 고객이 원하는 부분들을 컨설턴트가 굳이 언급하지 않아도 확인할 수있다.
+* 간단하고 재밌게 테스트가 가능하고, 이로 인해 유학의 흥미를 유발할 수 있다.
+
+### 2. 개발 환경 및 배포 URL	
+	
+#### 2.1 개발 언어
+* html 
+* css
+* Javascript 
+
+#### 2.2 배포 URL
+https://whichcountry.shop
+
